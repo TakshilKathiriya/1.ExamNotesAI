@@ -70,7 +70,9 @@ function Footer() {
             <h1 className='text-sm font-semibold text-white mb-4'>Support & Account</h1>
             <ul className='space-y-2 text-sm'>
                 <li onClick={handleSignOut} className='text-red-400 hover:text-red-300 transition-colors'>SignOut</li>
-                <li className='text-gray-300 hover:text-white transition-colors'>support@examnotes.com</li>
+                <li className='text-gray-300 hover:text-white transition-colors'>takshilkathiriya2@gmail.com</li>
+                <li className='text-gray-300 hover:text-white transition-colors'>7874356503</li>
+                
             </ul>
         </div>
 
