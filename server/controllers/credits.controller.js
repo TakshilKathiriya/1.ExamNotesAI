@@ -7,6 +7,12 @@ if (!process.env.STRIPE_SECRET_KEY) {
   throw new Error("Stripe secret key missing in .env");
 }
 
+const clientUrl = process.env.CLIENT_URL?.trim().replace(/\/+$/, "");
+
+if (!clientUrl) {
+  throw new Error("Client URL missing in .env");
+}
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 const CREDIT_MAP = {
@@ -29,8 +35,8 @@ export const createCreditsOrder = async (req,res) => {
     const session = await stripe.checkout.sessions.create({
         mode: "payment",
       payment_method_types: ["card"],
-      success_url: `${process.env.CLIENT_URL}/payment-success`,
-      cancel_url: `${process.env.CLIENT_URL}/payment-failed`,
+      success_url: `${clientUrl}/payment-success`,
+      cancel_url: `${clientUrl}/payment-failed`,
       line_items: [
         {
           price_data: {
