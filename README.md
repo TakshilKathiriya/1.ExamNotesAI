@@ -200,18 +200,8 @@ Express.js API
 
 🔗 GitHub: https://github.com/TakshilKathiriya
 
-🔗 LinkedIn:https://www.linkedin.com/in/takshil-kathiriya-17a367284/
+🔗 LinkedIn: https://www.linkedin.com/in/takshil-kathiriya-17a367284/
 
-📧 Email:takshilkathiriya2@gmail.com
-
----
-
-# ⭐ Support
-
-If you found this project useful, consider giving it a star on GitHub.
+📧 Email: takshilkathiriya2@gmail.com
 
 ---
-
-# 📜 License
-
-This project is licensed under the MIT License.
