@@ -191,40 +191,7 @@ Express.js API
  │
  └── Google Gemini AI
 ```
-
 ---
-
-# 📸 Screenshots
-
-## Home Page
-
-(Add Screenshot Here)
-
-## Login Page
-
-(Add Screenshot Here)
-
-## Notes Dashboard
-
-(Add Screenshot Here)
-
-## AI Notes Generation
-
-(Add Screenshot Here)
-
----
-
-# 🎯 Future Enhancements
-
-* PDF export for notes
-* Subject-wise note categorization
-* Dark mode support
-* AI-powered note summarization
-* Note sharing and collaboration
-* Advanced search and filtering
-
----
-
 # 👨‍💻 Author
 
 ### Takshil Kathiriya
