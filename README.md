@@ -200,9 +200,9 @@ Express.js API
 
 🔗 GitHub: https://github.com/TakshilKathiriya
 
-🔗 LinkedIn: Add Your LinkedIn Profile
+🔗 LinkedIn:https://www.linkedin.com/in/takshil-kathiriya-17a367284/
 
-📧 Email: Add Your Email
+📧 Email:takshilkathiriya2@gmail.com
 
 ---
 
